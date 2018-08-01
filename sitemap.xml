@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>index.html</loc> 
+  <lastmod>2018-03-12T11:20:32+00:00</lastmod> 
+  <changefreq>monthly</changefreq> 
+  <priority>1.00</priority> 
+  </url>
+<url>
+  <loc>pages/author.html</loc> 
+  <lastmod>2018-03-12T11:20:32+00:00</lastmod> 
+  <changefreq>yearly</changefreq> 
+  <priority>0.8</priority> 
+  </url>
+<url>
+  <loc>pages/beginnings.html</loc> 
+  <lastmod>2018-03-12T11:20:32+00:00</lastmod> 
+  <changefreq>yearly</changefreq> 
+  <priority>0.55</priority> 
+  </url>
+<url>
+  <loc>pages/ducati.html</loc> 
+  <lastmod>2018-03-12T11:20:32+00:00</lastmod> 
+  <changefreq>yearly</changefreq> 
+  <priority>0.6</priority> 
+  </url>
+<url>
+  <loc>pages/kawasaki.html</loc> 
+  <lastmod>2018-03-12T11:20:32+00:00</lastmod> 
+  <changefreq>yearly</changefreq> 
+  <priority>0.6</priority> 
+  </url>
+<url>
+  <loc>pages/yamaha.html</loc> 
+  <lastmod>2018-03-12T11:20:32+00:00</lastmod> 
+  <changefreq>yearly</changefreq> 
+  <priority>0.55</priority> 
+  </url>
+  <url>
+  <loc>pages/nowadays.html</loc> 
+  <lastmod>2018-03-12T11:20:32+00:00</lastmod> 
+  <changefreq>yearly</changefreq> 
+  <priority>0.55</priority> 
+  </url>
+  </urlset>

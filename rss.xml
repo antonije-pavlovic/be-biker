@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <rss version="2.0">
+  <channel>
+	<item>
+	   <title>History | Be Biker</title>
+	   <link>index.html</link>
+	   <description> In the 1860s Pierre Michaux, a blacksmith in Paris, founded 'Michaux et Cie' ("Michaux and company"), the first company to construct bicycles with pedals called a velocipede at the time, or "Michauline".The first steam powered motorcycle, the Michaux-Perreaux steam velocipede, can be traced to 1867, when Pierre's son Ernest Michaux fitted a small steam engine to one of the 'velocipedes'.
+	                The design went to America when Pierre Lallement, a Michaux employee who also claimed to . . . </description>
+    </item>
+	<item>
+	   <title>Nowadays bikes |Be Biker</title>
+	   <link>pages/nowadays.html</link>
+	   <description>Follow the latest models in the motor industry </description>
+     </item>
+	<item>
+	   <title>Beginnings | Be Biker</title>
+	   <link>pages/beginnings.html</link>
+	   <description>This is how it all started</description>
+	</item>
+	<item>
+	   <title>About author | Be Biker</title>
+	   <link>pages/author.html</link>
+	   <description></description>
+    </item>
+  </channel>
+</rss>

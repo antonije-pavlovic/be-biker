@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Be biker</title>
+		<meta charset="utf-8"/>
+		<meta name="keywords" content="motorcycle,biker,history,kawasaki,yamaha,ducati"/>
+		<meta name="description" content="Site about motorcycles"/>
+		<meta name="author" content="Antonije Pavlovic"/>
+      <link rel="shortcut icon" type="image/x-icon" href="slike/bos.ico">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="../fancybox/dist/jquery.fancybox.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="../fancybox/dist/jquery.fancybox.min.css">
+      <script type="text/javascript" src="../js/script.js"></script>
+      <link rel="stylesheet" type="text/css" href="../stil.css">
+  </head>
+  <body>
+    <div id="holder">
+      <header>
+          <div id="logo">
+            <img src="../images/logo.png" alt="logo" width="200px" height="130px"/>
+          </div>
+           <div id="quote">
+             <p>Straights are for fast bikes, </br>
+               turns are for fast riders</p>
+          </div>
+          <div id="contacts">
+            <div id="networks">
+              <img src="../images/fb.png" alt="facebook" class="networksImg" width="30px" height="30px"/>
+              <img src="../images/insta.png" alt="instagram" class="networksImg" width="30px" height="30px"/>
+              <img src="../images/yt.png" alt="youtube" class="networksImg" width="30px" height="30px"/>
+            </div>
+            <div id="personal">
+              <p>
+              email: bebiker@gmail.com </br>
+              phone: 059272640293</br>
+              adress: Some state,Somewhere 24.
+              </p>
+            </div>
+          </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="../index.html"> home </a></li>
+          <li><a href="#"> brands history </a>
+            <ul>
+              <li><a href="ducati.html">Ducati</a></li>
+              <li><a href="yamaha.html">Yamaha</a></li>
+              <li><a href="kawasaki.html">Kawasaki</a></li>
+            </ul>
+          </li>
+          <li><a href="#"> gallery </a>
+            <ul>
+              <li class="galeryDropDown"><a href="#">beginnings</a></li>
+              <li class="galeryDropDown"><a href="nowadays.html">Nowadays</a></li>
+            </ul>
+          </li>
+          <li><a href="author.html"> author </a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="frame">
+
+          <a class="lightbox" href="../images/beginnings/beginnings/ariel.jpg" data-fancybox="group" data-caption="Ariel 500 Oldtimer Motorrad Jg. 1930 - Ariel 500 Inv. 01.1930" >
+             <img src="../images/beginnings/ariel.png" alt="ariel" />
+          </a>
+
+          <a class="lightbox" href="../images/beginnings/beginnings/bmw.jpg" data-fancybox="group" data-caption="BMW R-71 Luftwaffe bike 1940 " >
+             <img src="../images/beginnings/bmw.png" alt="bmw r71" />
+          </a>
+          <a class="lightbox" href="../images/beginnings/beginnings/hydra560.jpg" data-fancybox="group" data-caption="Fournier-Buchet and Anzani Hydra 560" >
+             <img src="../images/beginnings/hydra560.png" alt="hydra" />
+          </a>
+          <a class="lightbox" href="../images/beginnings/beginnings/lady.jpg" data-fancybox="group" data-caption="1925 Lady 147cc Classic Motorcycle" >
+             <img src="../images/beginnings/lady.png" alt="lady" />
+          </a>
+          <a class="lightbox" href="../images/beginnings/beginnings/norton.jpg" data-fancybox="group" data-caption="1930 Norton Model 18" >
+             <img src="../images/beginnings/norton.png" alt="norton" />
+          </a>
+          <a class="lightbox" href="../images/beginnings/beginnings/old.jpg" data-fancybox="group" data-caption="Ride hard or stay home" >
+             <img src="../images/beginnings/old.png" alt="old bike" />
+          </a>
+
+        </div>
+      </main>
+      <footer>
+          <div id="up">
+            <div class="blocks">
+              <h3>follow us</h3>
+                <p><a href="https://www.facebook.com/" target="_blank">facebook</a></p>
+                <p><a href="https://www.youtube.com/" target="_blank">youtube</a></p>
+                <p><a href="https://www.instagram.com/?hl=sr" target="_blank">instagram</a></p>
+            </div>
+            <div class="blocks">
+              <form class="form-group">
+                <h3>send us a email</h3>
+                  <table>
+                    <tr>
+                      <td  class="textAreaPadding">
+                        <input type="text" placeholder="FULL NAME" class="form-control" id="name"/>
+                      </td>
+                      <td id="nameIncorrect" class="showHide">
+                        * Name is incorrect !
+                      </td>
+                    </tr>
+                    <tr>
+                      <td  class="textAreaPadding">
+                        <input type="email" placeholder="EMAIL" class="form-control" id="emailField"/>
+                      </td>
+                      <td id="emailIncorrect" class="showHide">
+                        * Email is incorrect,name must be included !
+                      </td>
+                    </tr>
+                    <tr>
+                      <td  class="textAreaPadding">
+                        <input type="text" placeholder="SUBJECT" class="form-control" id="subject"/>
+                      </td>
+                      <td id="subjectIncorrect" class="showHide">
+                        * Unauthorized text or empty field !
+                      </td>
+                    </tr>
+                    <tr>
+                      <td  class="textAreaPadding">
+                        <input type="file" placeholder="Your bike" class="form-control" id="bike"/>
+                      </td>
+                      <td id="picIncorrect" class="showHide">
+                        * Extension is not right only .jpg .png .jpeg !
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="textAreaPadding">
+                        <textarea  cols="10" rows="5" class="form-control" id="textArea"></textarea>
+                      </td>
+                      <td id="textIncorrect" class="showHide">
+                          * Unauthorized text or empty field !
+                      </td>
+                    </tr>
+                    <tr>
+                      <td  class="textAreaPadding">
+                        <input type="button" value="send" class="btn btn-default" onclick="check();"/>
+                      </td>
+                      <td></td>
+                    </tr>
+                  </table>
+              </form>
+            </div>
+            <div class="blocks">
+              <h3>fast links</h3>
+              <ul>
+                <li><a href="../index.html"> home </a></li>
+                <li><a href="ducati.html"> brands history </a></li>
+                <li><a href="#"> gallery </a></li>
+                <li><a href="author.html"> author </a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="down">
+            <label>All rights reserved © created by Antonije Pavlovic 47/16</label>
+            <a href="../rss.xml" target="_blank" class="otherStyle">RSS</a> 
+            <a href="../sitemap.xml" target="_blank" class="otherStyle">Sitemap</a>
+            <a href="../doc.pdf" target="_blank" class="otherStyle">Documentation</a>
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>

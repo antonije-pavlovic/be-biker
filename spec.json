@@ -1,0 +1,91 @@
+{
+  "motors": [
+    {
+      "ducati": {
+        "engine" : {
+          "bore(mm)":116,
+          "compression ration":"13:1",
+          "cooling":"Liquid",
+          "displacement in cc":1285,
+          "displacement in ci":"78.4",
+          "engine type":"Longitudinal Twin",
+          "starter":"Elestric",
+          "stroke":"60.8",
+          "valve configuration":"DOHC"
+        },
+        "transmission":{
+          "number of speeds":6,
+          "primary drive":"Gear",
+          "transmission type":"Manual"
+        },
+        "tires":{
+          "front tire":"Pirelli® Diablo Supercorsa SP 120/70 ZR17",
+          "rear tire":"Pirelli® Diablo Supercorsa SP 200/55 ZR17"
+        },
+        "breakes":{
+          "front brake diameter":330,
+          "front brake type":"Dual Hydraulic Disc",
+          "rear brake diameter":9.7,
+          "rear brake type":"Hydraulic Disc"
+        }
+      }
+  },
+  {
+    "kawasaki": {
+        "engine":{
+          "type":"Supercharged DOHC inline-4, 4 valves per cylinder",
+          "displacement":"998cc",
+          "bore x stroke":"76.0 x 55.0 mm",
+          "compression ration":"8.3:1",
+          "claimed power":"310 hp @ 14,000 rpm"
+          
+        },
+        "transmission":{
+          "gearbox":"Six-speed",
+          "primary drive":"Gear",
+          "transmission type":"Manual"
+        },
+        "tires":{
+          "front tire":"Racing Battlax V01 120/600R17",
+          "rear tire":"Racing Battlax V01 190/650R1 "
+        },
+        "brakes":{
+          "front brake":"Dual radial-mount, opposed 4-piston calipers, dual semi-floating 330mm discs, KIBS ABS",
+          "rear brake":"Opposed 2-piston calipers, single 250mm disc, KIBS ABS"
+        },
+        "suspension":{
+          "Front Suspension":"43mm inverted fork",
+          "Rear Suspension":"New Uni-Trak, Öhlins TTX36 "
+        }
+    }
+  },
+  {
+    "yamaha":{
+      "engine":{
+        "Engine Type":"998cc, liquid-cooled inline 4 cylinder DOHC; 16 valves",
+        "Bore x Stroke":"79.0mm x 50.9mm",
+        "Compression Ratio":"13.0:1",
+        "Fuel Delivery":"Fuel Injection with YCC-T and YCC-I",
+        "Ignition":"TCI: Transistor Controlled Ignition",
+        "Transmission":"6-speed; multiplate assist and slipper clutch",
+        "Final Drive":"Chain"
+      },
+      "Chassis":{
+        "Suspension / Front":"43mm KYB® inverted fork; fully adjustable; 4.7- in travel",
+        "Suspension / Rear":"KYB® piggyback shock, 4-way adjustable; 4.7- in travel",
+        "Brakes / Front":"Dual 320mm hydraulic disc; Unified Brake System and ABS",
+        "Brakes / Rear":"220mm disc; Unified Brake System and ABS",
+        "Tires / Front":"120/70ZR17",
+        "Tires / Rear":"190/55ZR17"
+      },
+      "Dimensions":{
+        "L  W  H":"80.9 in x 27.2 in x 45.3 in",
+        "Seat Height":"33.7 in",
+        "Wheelbase":"55.3 in",
+        "Rake (Caster Angle)":"24.0°",
+        "Maximum Ground Clearance":"5.1 in"
+      }
+    }
+  }
+  ]
+}
